@@ -1,3 +1,43 @@
 body {
-    background: blue;
+    background: #99ccff;
+    font-family: Helvetica, Sans-Serif;
+}
+
+body a:visited {
+    color: red;
+}
+
+img {
+    margin: 10px;
+}
+
+
+#intro {
+    padding: 20px;
+    border: 1px solid black;
+    font-size: 22px;
+    background-image: url("flag.jpg");
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+#intro h1{
+        font-size: 32px;
+}
+
+
+.frenchy {
+	font-family: La Belle Aurore;
+}
+
+footer {
+    text-align: center
+}
+
+
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: x-small;
+  }
 }
